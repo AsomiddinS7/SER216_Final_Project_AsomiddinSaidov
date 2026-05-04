@@ -1,0 +1,68 @@
+# Digital Parking Permit System
+
+## Student: Asomiddin Saidov
+
+## Course: SER216 Practical Project
+
+---
+
+## Functional Requirements
+1. Users must be able to apply for a parking permit online.
+2. Administrators should be able to approve or deny parking permit applications.
+3. Users receive confirmation and guidelines via email after approval.
+4. The system should allow users to renew their permits online.
+
+## Non-Functional Requirements
+1. The system must be available 99.9% of the time.
+2. User data must be encrypted to protect personal information.
+
+---
+
+## Workflow Diagram Description
+The workflow diagram illustrates the process from permit application to approval, highlighting user interactions with the system and the decision-making process for administrators.
+
+---
+
+## Test Cases Summary
+### System Test Cases
+1. **Test Case 1: Submit application**  
+   Verify that a user can successfully submit a parking permit application.  
+   * Expected Result: Application is recorded in the system.
+
+2. **Test Case 2: Approve application**  
+   Verify that an administrator can approve a parking permit application.  
+   * Expected Result: Applicant receives confirmation email.
+
+### Acceptance Test Cases
+1. **Test Case 3: User registration**  
+   Verify that a new user can register successfully.  
+   * Expected Result: User account is created.
+
+2. **Test Case 4: Renewal process**  
+   Verify that a user can successfully renew their parking permit.  
+   * Expected Result: Permit is renewed and confirmation is sent.
+
+### Regression Test Cases
+1. **Test Case 5: Access application after modification**  
+   Verify that changes in the system do not affect previously submitted applications.  
+   * Expected Result: Older applications remain unaffected and retrievable.
+
+2. **Test Case 6: System response time**  
+   Verify that the system maintains response times within 2 seconds post-update.  
+   * Expected Result: All processes execute within the specified time frame.
+
+---
+
+## Defect Analysis for Expired Permit Bug
+The expired permit bug caused confusion among users, where permits were erroneously shown as active. The root cause was traced to incorrect date handling in the database. This defect highlights the importance of robust date validation and logging.
+
+---
+
+## GitHub Repository Evidence
+- **Repository Link:** [AsomiddinS7/SER216_Final_Project_AsomiddinSaidov](https://github.com/AsomiddinS7/SER216_Final_Project_AsomiddinSaidov)  
+- **Screenshots:** Downloaded images of the implementation process, including the application interface and successful administration responses, will be added as attachments to enhance visibility.
+
+---
+
+## Conclusion
+The Digital Parking Permit System demonstrates a practical implementation of software engineering principles. It meets academic and industry standards, providing a reliable tool for users to manage their parking permits efficiently.
